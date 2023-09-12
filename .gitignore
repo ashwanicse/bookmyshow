@@ -22,3 +22,23 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+
+#STS files
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# Mac
+.DS_Store
+
+#extra added for mvn projects
+HELP.md
+mvnw
+mvnw.cmd
+target/
+!.mvn/wrapper/maven-wrapper.jar
