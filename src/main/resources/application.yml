@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: bookmyshow
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/bookmyshow_db
+    username: root
+    password: '@shwaniCs90'
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    
+    
+  
