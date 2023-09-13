@@ -2,7 +2,7 @@ package com.bookmyshow.model;
 
 import com.bookmyshow.enums.SeatType;
 
-public class Seat {
+public class Seat extends Base{
 	
 	private int rowNum;
 	private int colNum;

@@ -1,12 +1,12 @@
 package com.bookmyshow.model;
 
-//import jakarta.persistence.Id;
-//import jakarta.persistence.MappedSuperclass;
+import jakarta.persistence.Id;
+import jakarta.persistence.MappedSuperclass;
 
-//@MappedSuperclass
+@MappedSuperclass
 public class Base {
 
-	//@Id
+	@Id
 	private int id;
 
 }

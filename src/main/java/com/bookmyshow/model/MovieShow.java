@@ -2,7 +2,7 @@ package com.bookmyshow.model;
 
 import java.util.Date;
 
-public class MovieShow {
+public class MovieShow extends Base{
 	
 	private Movie movie;
 	private Date startTime;

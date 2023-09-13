@@ -1,3 +1,9 @@
+
+server:
+  port: 9090 
+  servlet:
+    context-path: /bms
+
 spring:
   application:
     name: bookmyshow

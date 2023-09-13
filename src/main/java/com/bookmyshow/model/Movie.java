@@ -7,7 +7,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Movie {
+public class Movie extends Base{
 
 	private String description;
 	private String name;

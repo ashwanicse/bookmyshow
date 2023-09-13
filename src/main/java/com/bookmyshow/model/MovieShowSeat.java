@@ -2,7 +2,7 @@ package com.bookmyshow.model;
 
 import com.bookmyshow.enums.BookingStatus;
 
-public class MovieShowSeat {
+public class MovieShowSeat extends Base{
 
 	private MovieShow moviesShow;
 	private Seat seat;
